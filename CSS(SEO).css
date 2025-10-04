@@ -2,6 +2,8 @@
     background-color: #f0b7a3;
     padding: 20px;
     text-align: center;
+    #fotoprincipal{
+        height:50px;
 }
 h1{
 color:rgb(22, 8, 4) ;
@@ -14,4 +16,5 @@ margin-left: 20px;
 
     margin-right: 10px;
     color:white;
+
 }
