@@ -13,8 +13,9 @@
 }
 
 #fotoprincipal {
-    height: 50px; 
+    height: 115px; 
     width: auto;
+    align-items: right;
 }
 h1{
 color:rgb(22, 8, 4) ;
@@ -29,6 +30,7 @@ margin-left: 20px;
     color:white;
 
 }
+
 
 
 
