@@ -1,18 +1,17 @@
 .cabecera {
-    background-color: #f0b7a3;
-    padding: 20px;
-    display: flex;                  
-    justify-content: space-between; 
-    align-items: center; 
-    gap: 20px;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    gap: 20px; 
 }
 
 .cabecera .titulo {
     display: flex;
     flex-direction: column;
-    text-align: center;
-    align-items: center;
+    justify-content: center; 
+    text-align: center; 
 }
+
 
 #fotoprincipal {
     height: 115px; 
@@ -32,6 +31,7 @@ margin-left: 20px;
     color:white;
 
 }
+
 
 
 
