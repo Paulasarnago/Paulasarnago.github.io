@@ -1,11 +1,20 @@
 .cabecera {
     background-color: #f0b7a3;
     padding: 20px;
-    text-align: center;
+    display: flex;                  
+    justify-content: space-between; 
+    align-items: center;            
 }
-    #fotoprincipal{
-        height: 50px;
-        width: auto;
+
+.cabecera .titulo {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+#fotoprincipal {
+    height: 50px; 
+    width: auto;
 }
 h1{
 color:rgb(22, 8, 4) ;
@@ -20,6 +29,7 @@ margin-left: 20px;
     color:white;
 
 }
+
 
 
 
