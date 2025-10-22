@@ -64,11 +64,33 @@ li{
 
 }
 
+footer{
 
+background-color: rgb(46, 42, 42);
+color: white;
+text-align: center;
+padding: 20px;
+position: absolute;
+bottom: 0;
+width: 100%;
 
+}
+section{
+    display: inline-block;
+    width: 22%;
+    padding: 10px;
+    vertical-align: top;
 
+}
+section p{
+    text-transform: uppercase;
+    border-bottom: 1px solid white;
+}
 
+article{
 
+    padding: 3px;
+}
 
 
 
