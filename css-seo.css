@@ -64,13 +64,9 @@ li{
     border-left: 1px;
 
 }
-picture {
-  text-align: center;
-}
-
 picture img {
-  display: inline-block;
-  max-width: 100%;
+  display: block;
+  width: 100%;
   height: auto;
 }
 footer{
