@@ -65,7 +65,7 @@ li{
 
 }
 
-li:hov{
+li:hover{
     background-color: aliceblue;
 }
 
