@@ -18,7 +18,7 @@ margin: 20px;
 }
 .cabecera {
     height: auto;
-    background-color: #d77f52;
+    background-color: #edebee;
     padding: 1px;
     text-align: center;
     gap: 20px; 
@@ -65,10 +65,10 @@ li{
 
 }
 
-li:active{
-    background-color: aqua;
-    color: white;
+li:hov{
+    background-color: aliceblue;
 }
+
 picture img {
   display: block;
   width: 100%;
