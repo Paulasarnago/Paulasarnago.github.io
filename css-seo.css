@@ -64,6 +64,11 @@ li{
     border-left: 1px;
 
 }
+
+li:active{
+    background-color: aqua;
+    color: white;
+}
 picture img {
   display: block;
   width: 100%;
