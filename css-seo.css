@@ -55,6 +55,8 @@ ol{
 
 }
 li{
+    box-sizing: border-box;
+    border-right: 1px solid #edebee;
     font-size: 16px;
     background-color:  rgb(46, 42, 42);
     text-align: center;
@@ -75,6 +77,50 @@ picture img {
   width: 100%;
   height: auto;
 }
+
+/*Seccion de la página --> ROPA */
+#ropa{
+    text-align: center;
+    margin: 20px;
+}
+#ropa h1{
+    color: #3b2d1f;
+    margin-bottom: 20px;
+}
+#ropa section{
+    text-align: center;
+    font-size: 0;
+}
+#ropa article{
+    display: inline-block;
+    vertical-align: top;
+    width: 280px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #fff;
+}
+#ropa article:hover {
+border: 1px solid #8b4513;
+background-color: #f9f6f2;
+}
+#ropa article img {
+    width: 100%;
+    height: 260px;
+
+}
+#ropa h3{
+    font-size: 1em;
+    margin: 10px 0;
+    color: #3b2d1f;
+}
+#ropa article p{
+    color: #8b4513;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
 footer{
 
 background-color: rgb(46, 42, 42);
@@ -86,7 +132,7 @@ width: 100%;
 position: relative;
 
 }
-section{
+footer section{
     display: inline-block;
     width: 22%;
     padding: 10px;
