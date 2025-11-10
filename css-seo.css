@@ -3,6 +3,7 @@
 html, body{
     margin: 0px;
     height: 100%;
+    font-family: Lato;
 }
 .barrasuperior{
 background-color: rgb(46, 42, 42);
@@ -17,6 +18,7 @@ span{
 margin: 20px;
 }
 .cabecera {
+    font-family: Raleway;
     height: auto;
     background-color: #edebee;
     padding: 1px;
@@ -121,6 +123,38 @@ background-color: #f9f6f2;
     font-weight: bold;
     margin-bottom: 10px;
 }
+
+/*Seccion de la página --> PATITAS MIMADAS*/
+
+#patitasmimadas h2{
+    margin-top: 10px;
+    text-align: center;
+}
+#patitasmimadas img{
+    float: left;    
+    height: 250px;
+    border: 1px solid black;
+    margin: 0 20px;
+    margin-bottom: 1rem;  
+}
+#patitasmimadas article {
+width: 50%;
+padding: 20px;
+box-sizing: border-box;
+display: inline-block;
+vertical-align: top;
+}
+#patitasmimadas p {
+    text-transform: none;
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+
+
+
+
+
 footer{
 
 background-color: rgb(46, 42, 42);
