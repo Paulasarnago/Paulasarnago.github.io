@@ -80,20 +80,20 @@ picture img {
   height: auto;
 }
 
-/*Seccion de la página --> ROPA */
-#ropa{
+/*Seccion de la página --> ropa, paseo, viaje*/
+#productos{
     text-align: center;
     margin: 20px;
 }
-#ropa h1{
+#productos h1{
     color: #3b2d1f;
     margin-bottom: 20px;
 }
-#ropa section{
+#productos section{
     text-align: center;
     font-size: 0;
 }
-#ropa article{
+#productos article{
     display: inline-block;
     vertical-align: top;
     width: 280px;
@@ -104,21 +104,21 @@ picture img {
     font-size: 16px;
     background-color: #fff;
 }
-#ropa article:hover {
+#productos article:hover {
 border: 1px solid #8b4513;
 background-color: #f9f6f2;
 }
-#ropa article img {
+#productos article img {
     width: 100%;
     height: 260px;
 
 }
-#ropa h3{
+#productos h3{
     font-size: 1em;
     margin: 10px 0;
     color: #3b2d1f;
 }
-#ropa article p{
+#productos article p{
     color: #8b4513;
     font-weight: bold;
     margin-bottom: 10px;
