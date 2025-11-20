@@ -1,5 +1,4 @@
-User-agent:*
-Allow:/
-Disallow:/*.pdf
-User-agent:bingbot
-Disallow:/
+User-agent: *
+Allow: /
+
+Sitemap: https://paulasarnago.github.io/sitemap.xml
