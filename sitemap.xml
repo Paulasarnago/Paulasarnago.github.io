@@ -1,72 +1,320 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-
+<!-- Página principal -->
 <url>
   <loc>https://paulasarnago.github.io/</loc>
   <lastmod>2025-11-21T17:56:00+00:00</lastmod>
   <priority>1.00</priority>
 </url>
+
+<!-- Ropa -->
 <url>
   <loc>https://paulasarnago.github.io/ropa-para-perros/</loc>
   <lastmod>2025-11-21T17:56:00+00:00</lastmod>
   <priority>0.80</priority>
+  <!-- Imágenes de ropa -->
+  <image:image>
+    <image:loc>https://paulasarnago.github.io/imagenes/Ropa/princesa.jpg</image:loc>
+    <image:caption>Vestido de princesa</image:caption>
+  </image:image>
+  <image:image>
+    <image:loc>https://paulasarnago.github.io/imagenes/Ropa/abrigopelos.webp</image:loc>
+    <image:caption>Abrigo estiloso</image:caption>
+  </image:image>
+    <image:image>
+    <image:loc>https://paulasarnago.github.io/imagenes/Ropa/trajeazul.webp</image:loc>
+    <image:caption>Traje azul de paseo</image:caption>
+  </image:image>  
+  <image:image>
+    <image:loc>https://paulasarnago.github.io/imagenes/Ropa/trajerojo.webp</image:loc>
+    <image:caption>Traje rojo de paseo</image:caption>
+  </image:image>
+  <image:image>
+    <image:loc>https://paulasarnago.github.io/imagenes/Ropa/mochino.webp</image:loc>
+    <image:caption>Sudadera estilosa</image:caption>
+  </image:image>
 </url>
+
+<!-- Paseo -->
 <url>
   <loc>https://paulasarnago.github.io/de-paseo/</loc>
   <lastmod>2025-11-21T17:56:00+00:00</lastmod>
   <priority>0.80</priority>
+  <!-- Correas, collares y arneses -->
+  <image:image>
+    <image:loc>https://paulasarnago.github.io/imagenes/paseo/correaelegante.webp</image:loc>
+    <image:caption>Correa elegante</image:caption>
+  </image:image>
+  <image:image>
+    <image:loc>https://paulasarnago.github.io/imagenes/paseo/correaextensible.webp</image:loc>
+    <image:caption>Correa extensible</image:caption>
+  </image:image>
+  <image:image>
+    <image:loc>https://paulasarnago.github.io/imagenes/paseo/correarosa.webp</image:loc>
+    <image:caption>Correa fashion</image:caption>
+  </image:image>
+  <image:image>
+    <image:loc>https://paulasarnago.github.io/imagenes/paseo/correavichinegra.webp</image:loc>
+    <image:caption>Correa Vichi negra</image:caption>
+  </image:image>
+  <image:image>
+    <image:loc>https://paulasarnago.github.io/imagenes/paseo/collarferdinadoazul.webp</image:loc>
+    <image:caption>Collar ferdinado azul</image:caption>
+  </image:image>
+  <image:image>
+    <image:loc>https://paulasarnago.github.io/imagenes/paseo/collartartan.webp</image:loc>
+    <image:caption>Collar tartán</image:caption>
+  </image:image>
+  <image:image>
+    <image:loc>https://paulasarnago.github.io/imagenes/paseo/collarvichiazuk.webp</image:loc>
+    <image:caption>Collar vichi azul</image:caption>
+  </image:image>
+  <image:image>
+    <image:loc>https://paulasarnago.github.io/imagenes/paseo/collarrojoestrellado.webp</image:loc>
+    <image:caption>Collar estrellado rojo</image:caption>
+  </image:image>
+  <image:image>
+    <image:loc>https://paulasarnago.github.io/imagenes/paseo/arnésleonarayasazul.webp</image:loc>
+    <image:caption>Arnés León</image:caption>
+  </image:image>
+  <image:image>
+    <image:loc>https://paulasarnago.github.io/imagenes/paseo/arnésprincesaajustable.webp</image:loc>
+    <image:caption>Arnés princesa</image:caption>
+  </image:image>
+  <image:image>
+    <image:loc>https://paulasarnago.github.io/imagenes/paseo/arnésperrovichiverde.webp</image:loc>
+    <image:caption>Collar vichi verde</image:caption>
+  </image:image>
+  <image:image>
+    <image:loc>https://paulasarnago.github.io/imagenes/paseo/arnésrosaasimple.webp</image:loc>
+    <image:caption>Arnés rosa simple</image:caption>
+  </image:image>
 </url>
+
+<!-- Viaje -->
 <url>
   <loc>https://paulasarnago.github.io/de-viaje/</loc>
   <lastmod>2025-11-21T17:56:00+00:00</lastmod>
   <priority>0.80</priority>
+  <!-- Mochilas, transportines y accesorios -->
+  <image:image>
+    <image:loc>https://paulasarnago.github.io/imagenes/viaje/mochilaberrynegra.webp</image:loc>
+    <image:caption>Mochila Berry Mason</image:caption>
+  </image:image>
+  <image:image>
+    <image:loc>https://paulasarnago.github.io/imagenes/viaje/mochilaberryflores.webp</image:loc>
+    <image:caption>Mochila Berry Floral</image:caption>
+  </image:image>
+  <image:image>
+    <image:loc>https://paulasarnago.github.io/imagenes/viaje/mochilaberryrosa.webp</image:loc>
+    <image:caption>Mochila Berry Cuqui</image:caption>
+  </image:image>
+  <image:image>
+    <image:loc>https://paulasarnago.github.io/imagenes/viaje/mochilaberryarmonial.webp</image:loc>
+    <image:caption>Mochila Berry Armonia</image:caption>
+  </image:image>
+  <image:image>
+    <image:loc>https://paulasarnago.github.io/imagenes/viaje/transporteazul.webp</image:loc>
+    <image:caption>Transportin plegable azul</image:caption>
+  </image:image>
+  <image:image>
+    <image:loc>https://paulasarnago.github.io/imagenes/viaje/transportenegro.webp</image:loc>
+    <image:caption>Transportin plegable negro</image:caption>
+  </image:image>
+  <image:image>
+    <image:loc>https://paulasarnago.github.io/imagenes/viaje/transporterojo.webp</image:loc>
+    <image:caption>Transportin plegable rojo</image:caption>
+  </image:image>
+  <image:image>
+    <image:loc>https://paulasarnago.github.io/imagenes/viaje/transporterosa.webp</image:loc>
+    <image:caption>Transportin rosa</image:caption>
+  </image:image>
+  <image:image>
+    <image:loc>https://paulasarnago.github.io/imagenes/viaje/camacochegris.webp</image:loc>
+    <image:caption>Cama Berry gris para el coche</image:caption>
+  </image:image>
+  <image:image>
+    <image:loc>https://paulasarnago.github.io/imagenes/viaje/camacocherosa.webp</image:loc>
+    <image:caption>Cama Berry rosa para el coche</image:caption>
+  </image:image>
+  <image:image>
+    <image:loc>https://paulasarnago.github.io/imagenes/viaje/fundaelegante.webp</image:loc>
+    <image:caption>PACK Funda + Correa</image:caption>
+  </image:image>
+  <image:image>
+    <image:loc>https://paulasarnago.github.io/imagenes/viaje/cinturon.webp</image:loc>
+    <image:caption>Cinturón correa para el coche</image:caption>
+  </image:image>
 </url>
+
+<!-- Higiene -->
 <url>
   <loc>https://paulasarnago.github.io/higiene/</loc>
   <lastmod>2025-11-21T17:56:00+00:00</lastmod>
   <priority>0.80</priority>
+  <!-- Productos de higiene -->
+  <image:image>
+    <image:loc>https://paulasarnago.github.io/imagenes/higiene/cardapuaprotegida.webp</image:loc>
+    <image:caption>Carda con Púa protectora</image:caption>
+  </image:image>
+  <image:image>
+    <image:loc>https://paulasarnago.github.io/imagenes/higiene/cepillopuametalica.webp</image:loc>
+    <image:caption>Cepillo Púa metálica</image:caption>
+  </image:image>
+  <image:image>
+    <image:loc>https://paulasarnago.github.io/imagenes/higiene/peinedesenredar.webp</image:loc>
+    <image:caption>Peine desenredador</image:caption>
+  </image:image>
+  <image:image>
+    <image:loc>https://paulasarnago.github.io/imagenes/higiene/peinepualarga.webp</image:loc>
+    <image:caption>Peine de Púa larga</image:caption>
+  </image:image>
+  <image:image>
+    <image:loc>https://paulasarnago.github.io/imagenes/higiene/packsonrisa.webp</image:loc>
+    <image:caption>Pack sonrisa</image:caption>
+  </image:image>
+  <image:image>
+    <image:loc>https://paulasarnago.github.io/imagenes/higiene/dedalessilicona.webp</image:loc>
+    <image:caption>Dedales de silicona</image:caption>
+  </image:image>
+  <image:image>
+    <image:loc>https://paulasarnago.github.io/imagenes/higiene/dedaleslimpiadores.webp</image:loc>
+    <image:caption>Dedales limpiadores</image:caption>
+  </image:image>
+  <image:image>
+    <image:loc>https://paulasarnago.github.io/imagenes/higiene/pastadedientes.webp</image:loc>
+    <image:caption>Pasta de dientes</image:caption>
+  </image:image>
+  <image:image>
+    <image:loc>https://paulasarnago.github.io/imagenes/higiene/BalsamosAlways.webp</image:loc>
+    <image:caption>Balsamo AlwaysYourFriend</image:caption>
+  </image:image>
+  <image:image>
+    <image:loc>https://paulasarnago.github.io/imagenes/higiene/empapadores.webp</image:loc>
+    <image:caption>Empapadores</image:caption>
+  </image:image>
+  <image:image>
+    <image:loc>https://paulasarnago.github.io/imagenes/higiene/dedaleslimpialagrimales.webp</image:loc>
+    <image:caption>Dedales limpia-lagrimales</image:caption>
+  </image:image>
+  <image:image>
+    <image:loc>https://paulasarnago.github.io/imagenes/higiene/bodypostcirugia.webp</image:loc>
+    <image:caption>Body post-cirugia</image:caption>
+  </image:image>
 </url>
+
+<!-- Descanso -->
 <url>
   <loc>https://paulasarnago.github.io/descanso/</loc>
   <lastmod>2025-11-21T17:56:00+00:00</lastmod>
   <priority>0.80</priority>
+  <!-- Camas y mantas -->
+  <image:image>
+    <image:loc>https://paulasarnago.github.io/imagenes/descanso/camapompon.webp</image:loc>
+    <image:caption>Cama Pompón</image:caption>
+  </image:image>
+  <image:image>
+    <image:loc>https://paulasarnago.github.io/imagenes/descanso/camanegracalidad.webp</image:loc>
+    <image:caption>Cama clásica</image:caption>
+  </image:image>
+  <image:image>
+    <image:loc>https://paulasarnago.github.io/imagenes/descanso/camatiendita.webp</image:loc>
+    <image:caption>Cama la tiendita</image:caption>
+  </image:image>
+  <image:image>
+    <image:loc>https://paulasarnago.github.io/imagenes/descanso/camavickycuadrosgris.webp</image:loc>
+    <image:caption>Cama Vicky</image:caption>
+  </image:image>
+  <image:image>
+    <image:loc>https://paulasarnago.github.io/imagenes/descanso/camaburdeos.webp</image:loc>
+    <image:caption>Cama Burdeos</image:caption>
+  </image:image>
+  <image:image>
+    <image:loc>https://paulasarnago.github.io/imagenes/descanso/camavickyverde.webp</image:loc>
+    <image:caption>Cama Vicky verde</image:caption>
+  </image:image>
+  <image:image>
+    <image:loc>https://paulasarnago.github.io/imagenes/descanso/camavickyrosa.webp</image:loc>
+    <image:caption>Cama Vicky rosa</image:caption>
+  </image:image>
+  <image:image>
+    <image:loc>https://paulasarnago.github.io/imagenes/descanso/camaargosorogris.webp</image:loc>
+    <image:caption>Cama Argo</image:caption>
+  </image:image>
+  <image:image>
+    <image:loc>https://paulasarnago.github.io/imagenes/descanso/mantarosa.webp</image:loc>
+    <image:caption>Manta Palais Rosa</image:caption>
+  </image:image>
+  <image:image>
+    <image:loc>https://paulasarnago.github.io/imagenes/descanso/mantakaki.webp</image:loc>
+    <image:caption>Manta Palais Kaki</image:caption>
+  </image:image>
+  <image:image>
+    <image:loc>https://paulasarnago.github.io/imagenes/descanso/mantagris.webp</image:loc>
+    <image:caption>Manta Palais Gris</image:caption>
+  </image:image>
+  <image:image>
+    <image:loc>https://paulasarnago.github.io/imagenes/descanso/mantaninabeige.webp</image:loc>
+    <image:caption>Manta Nina Beige</image:caption>
+  </image:image>
 </url>
+
+<!-- Juguetes -->
 <url>
   <loc>https://paulasarnago.github.io/juguetes/</loc>
   <lastmod>2025-11-21T17:56:00+00:00</lastmod>
   <priority>0.80</priority>
+  <!-- Ejemplos de juguetes -->
+  <image:image>
+    <image:loc>https://paulasarnago.github.io/imagenes/juguetes/pelota.webp</image:loc>
+    <image:caption>Pelota para perros</image:caption>
+  </image:image>
+  <image:image>
+    <image:loc>https://paulasarnago.github.io/imagenes/juguetes/hueso.webp</image:loc>
+    <image:caption>Hueso de juguete</image:caption>
+  </image:image>
+  <image:image>
+    <image:loc>https://paulasarnago.github.io/imagenes/juguetes/raton.webp</image:loc>
+    <image:caption>Ratón de juguete</image:caption>
+  </image:image>
+  <image:image>
+    <image:loc>https://paulasarnago.github.io/imagenes/juguetes/peluche.webp</image:loc>
+    <image:caption>Peluche para perros</image:caption>
+  </image:image>
 </url>
+
+<!-- Hazte VIP -->
 <url>
   <loc>https://paulasarnago.github.io/hazte-vip-consigue-descuentos/</loc>
   <lastmod>2025-11-21T17:56:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
+
+<!-- Patitas Mimadas -->
 <url>
   <loc>https://paulasarnago.github.io/patitas-mimadas/</loc>
   <lastmod>2025-11-21T17:56:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
+
+<!-- Preguntas frecuentes y pagos a plazos -->
 <url>
   <loc>https://paulasarnago.github.io/preguntas-frecuentes-y-pagos-a-plazos/</loc>
   <lastmod>2025-11-21T17:56:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
+
+<!-- Información de interés -->
 <url>
   <loc>https://paulasarnago.github.io/informacion-de-interes/</loc>
   <lastmod>2025-11-21T17:56:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-<url>
-  <loc>https://paulasarnago.github.io/juguetes/index.html</loc>
-  <lastmod>2025-11-21T17:56:00+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-
 
 </urlset>
