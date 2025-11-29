@@ -33,12 +33,19 @@ margin: 20px;
 h1{
     margin-top: 0;
 color:rgb(22, 8, 4) ;
+text-transform: uppercase;
+font-family: Lato;
+font-weight: 500;
 }
 h2{
 margin-bottom: 25px;
 color:rgb(22, 8, 4) ;
 margin-left: 20px;
 font-size: 28px;
+text-align: center;
+text-transform: uppercase;
+font-family: Lato;
+font-weight: 500;
 }
 .fa-paw{
 
@@ -208,21 +215,24 @@ background-color: #f9f6f2;
 
 #patitasmimadas p{
     text-transform: none;
+    text-align: justify;
 }
 
 #patitasmimadas:nth-of-type(n+2) {
     padding: 20px;
     background: #fafafa;
     border-radius: 12px;
-    box-shadow: 0 3px 12px rgba(0,0,0,0,0.08);
 }
 
 
 #patitasmimadas h2 {
     margin-top: 10px;
     text-align: center;
-    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-size: 30px;
     color: rgb(46, 42, 42);
+    font-family: Lato;
+    font-weight: 500;
 }
 
 #patitasmimadas img {
@@ -231,7 +241,7 @@ background-color: #f9f6f2;
     border: 1px solid #ccc;
     border-radius: 8px;
     margin: 0 20px 1rem 0;
-    box-shadow: 0 2px 6px rgb(46, 42, 42);
+    border: 2px solid rgb(46, 42, 42);
 }
 
 #patitasmimadas article {
@@ -278,23 +288,102 @@ background-color: #f9f6f2;
 
 
 /*PREGUNTAS FRECUENTES/PAGOS*/
-#FAQS h2{
-    margin-top: 25px;
+
+#FAQS {
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+    font-family: Lato, sans-serif;
 }
-#FAQS p{
-    text-transform: none;
-    margin: auto;
+
+#FAQS h2 {
+    text-align: center;
+    font-size: 32px;
+    color: rgb(46, 42, 42);
+    font-family: Raleway;
+    margin-bottom: 25px;
 }
-#FAQS img{
+
+
+#FAQS article {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-left: 5px solid rgb(46, 42, 42);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+#FAQS article:hover {
+    background-color: #f9f6f2;
+    border-left-color: #8b4513;
+}
+
+#FAQS h3 {
+    margin-top: 0;
+    color: #3b2d1f;
+    font-size: 22px;
+    font-family: Raleway;
+}
+
+#FAQS p {
+    color: #444;
+    text-align: justify;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+#FAQS img {
     height: 150px;
     float: right;
- 
+    margin-left: 10px;
+    border-radius: 8px;
 }
-#FAQS section{
-    text-align: justify;
-    margin-top: 40px;
-    margin-bottom: 40px;
+
+#FAQS p{
+    text-transform: none;
 }
+
+/* SECCIONES DE PAGO A PLAZOS */
+.plazos {
+margin-left: 65px;
+margin-right: 65px;
+    width: 40%;
+    display: inline-block;
+}
+
+.plazos article {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-left: 5px solid #8b4513;
+    border-radius: 10px;
+    padding: 25px 30px; 
+    margin-bottom: 30px;
+}
+
+.plazos article:hover {
+    background-color: #f9f6f2;
+    border-left-color: #3b2d1f;
+}
+
+.plazos h3 {
+    margin-top: 0;
+    color: #3b2d1f;
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.plazos p {
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 12px;  
+    font-size: 16px;
+    text-align: justify;    
+}
+
+
 
 /* HAZTEVIP */
 #haztevip {
