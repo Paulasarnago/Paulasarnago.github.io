@@ -378,15 +378,9 @@ background-color: #f9f6f2;
 form {
     margin: 30px auto;
     max-width: 500px;
+    width: 100%;
 }
-fieldset{
-    padding: 15px 20px;
-    border: 1px solid black;
-    text-align: left;
-}
-form fieldset > legend{
-    font-weight: bold;
-}
+
 form label{
     display: block;
     margin: 10px;
@@ -397,11 +391,12 @@ form input {
     font-size: 16px;
     border-radius: 6px;
     border: 1px solid #ccc;
+    width: 100%;
 
 }
 
 form button {
-    margin: 10px;
+    margin: 15px;
     padding: 12px;
     font-size: 16px;
     border-radius: 6px;
