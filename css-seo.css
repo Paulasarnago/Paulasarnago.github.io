@@ -378,9 +378,18 @@ background-color: #f9f6f2;
 form {
     margin: 30px auto;
     max-width: 500px;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+}
+fieldset{
+    padding: 15px 20px;
+    border: 1px solid black;
+    text-align: left;
+}
+form fieldset > legend{
+    font-weight: bold;
+}
+form label{
+    display: block;
+    margin: 10px;
 }
 
 form input {
@@ -388,9 +397,11 @@ form input {
     font-size: 16px;
     border-radius: 6px;
     border: 1px solid #ccc;
+
 }
 
 form button {
+    margin: 10px;
     padding: 12px;
     font-size: 16px;
     border-radius: 6px;
@@ -398,6 +409,7 @@ form button {
     color: white;
     border: none;
     cursor: pointer;
+    width: 100%;
 }
 
 form button:hover {
