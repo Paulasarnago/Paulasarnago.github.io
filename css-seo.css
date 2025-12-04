@@ -500,39 +500,73 @@ form button:hover {
     background-color: #3b372f;
 }
 
-footer{
+/*PIE DE PÁGINA CON NAVEGACIÓN*/
 
-background-color: rgb(46, 42, 42);
-color: white;
-text-align: center;
-padding: 20px;
-bottom: 0;
-width: 100%;
-position: relative;
-
-}
-footer section{
-    display: inline-block;
-    width: 22%;
-    padding: 10px;
-    vertical-align: top;
-
-}
-section p{
-    text-transform: uppercase;
+h5{
     border-bottom: 1px solid white;
+
+}
+footer {
+
+  background: #2e2929;
+  padding: 40px 0;
+  color: white;
 }
 
-article{
+.navegacioninferior {
+  width: 1000px;
+  max-width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+}
 
-    padding: 3px;
+.navegacioninferior nav {
+    float: left;
+    margin: 0;
+  padding: 0 10px;
+  width: 33.33€;
+  box-sizing: border-box;
+  padding-left: 130px;
 }
 
 
+.titulo {
+  font-size: 18px;
+  margin-bottom: 15px;
+  position: relative;
+  padding-bottom: 8px;
+  text-align: center; 
+  margin-top: 0;
+}
 
 
+.pie {
+  list-style-type: none; 
+  padding: 0;
+  margin: 0;
+  text-align: center; 
+}
 
+.pie a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  display: block; 
+  padding: 2px 0; 
+}
 
+.pie a:hover {
+  text-decoration: underline;
+}
+
+.pie li {
+
+  display: block; 
+  margin: 6px 0;
+  border: none;
+  background-color: transparent;
+  width: auto;
+}
 
 
 
