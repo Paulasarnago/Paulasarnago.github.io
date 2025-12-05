@@ -363,11 +363,6 @@ margin-right: 65px;
     margin-bottom: 30px;
 }
 
-.plazos article:hover {
-    background-color: #f9f6f2;
-    border-left-color: #3b2d1f;
-}
-
 .plazos h3 {
     margin-top: 0;
     color: #3b2d1f;
