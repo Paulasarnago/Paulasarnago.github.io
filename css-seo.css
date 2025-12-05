@@ -82,24 +82,21 @@ li:hover {
 }
 
 
-/* ------------------------------
-  Banner principal
------------------------------- */
+/*Formato de mi pagina principal*/
 #banner {
     display: block;
     width: 100%;
     margin: 20px 0;
 }
-
-/* ------------------------------
-  Sección productos principales
------------------------------- */
+#principal h2{
+    text-align: center;
+    text-transform: uppercase;
+}
 #principal {
     text-align: center;
     margin: 20px;
 }
 
-/* Productos individuales */
 #principal article {
     display: inline-block;
     vertical-align: top;
@@ -109,7 +106,6 @@ li:hover {
     border-radius: 10px;
     background-color: #fff;
     font-size: 16px;
-    transition: 0.3s; /* suaviza hover */
 }
 
 #principal article:hover {
