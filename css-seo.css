@@ -83,7 +83,7 @@ li:hover {
 
 
 /*Productos seccion principal*/
-picture img {
+#banner {
     margin: 20px 0;
     width: 100%;
     display: block;
@@ -104,7 +104,7 @@ picture img {
 #principal article {
     display: inline-block;
     vertical-align: top;
-    width: calc(25% - 20px);   /* 4 en una fila */
+    width: 23%;
     margin: 10px;
     border: 1px solid #ddd;
     border-radius: 10px;
