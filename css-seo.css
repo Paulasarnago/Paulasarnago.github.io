@@ -96,6 +96,9 @@ h2{
     text-align: center;
     margin: 20px;
 }
+aside{
+    width: 90%;
+}
 
 #principal article {
     display: inline-block;
