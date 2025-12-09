@@ -493,7 +493,7 @@ footer nav {
 
 }
 footer:hover{
-    background-color: none;
+    background-color: none !important;
 }
 
 footer h5 {
@@ -529,6 +529,7 @@ footer li {
   background-color: transparent;
   width: auto;
 }
+
 
 
 
