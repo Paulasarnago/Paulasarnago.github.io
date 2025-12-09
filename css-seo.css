@@ -519,10 +519,6 @@ footer a {
   padding: 2px 0; 
 }
 
-footer a:hover {
-  text-decoration: underline;
-}
-
 footer li {
  
   display: block; 
@@ -531,6 +527,7 @@ footer li {
   background-color: transparent;
   width: auto;
 }
+
 
 
 
