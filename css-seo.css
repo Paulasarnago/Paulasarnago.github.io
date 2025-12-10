@@ -14,13 +14,14 @@ html, body {
     color: white;
     text-align: center;
     font-size: 14px;
-    padding: 4px px;
+    padding: 4px;
     letter-spacing: 0.5px;
     margin-left: 0;
 }
 #barrasuperior p {
   display: inline-block;
   margin: 10px 15px;
+  margin-top: 0;
 }
 
 
@@ -494,6 +495,9 @@ footer nav {
 
 }
 
+footer li:hover{
+    background-color: none;
+}
 
 footer h5 {
   font-size: 18px;
