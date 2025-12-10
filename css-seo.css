@@ -492,9 +492,7 @@ footer nav {
 
 
 }
-footer:hover{
-    background-color: none !important;
-}
+
 
 footer h5 {
   font-size: 18px;
@@ -506,7 +504,7 @@ footer h5 {
 }
 
 
-ul {
+footer ol {
 
   padding: 0;
   margin: 0;
@@ -521,6 +519,10 @@ footer a {
   padding: 2px 0; 
 }
 
+footer a:hover {
+  text-decoration: underline;
+}
+
 footer li {
  
   display: block; 
@@ -529,9 +531,6 @@ footer li {
   background-color: transparent;
   width: auto;
 }
-
-
-
 
 
 
