@@ -78,7 +78,7 @@ li:last-child {
     border-right: none; 
 }
 
-li:hover {
+header nav li:hover {
     background-color: aliceblue;
     color: black;
 }
@@ -495,9 +495,7 @@ footer nav {
 
 }
 
-footer li:hover{
-    background-color: none;
-}
+
 
 footer h5 {
   font-size: 18px;
