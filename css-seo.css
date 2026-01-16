@@ -98,9 +98,7 @@ h2{
     text-align: center;
     margin: 20px;
 }
-aside{
-    margin-left: 15px;
-}
+
 
 .principal article {
     display: inline-block;
@@ -171,8 +169,105 @@ aside{
     margin: auto;
 }
 
+/*ARTICULOS DE INTERES*/
+#informativo h3{
+    margin-left: 0;
+    background-color: rgb(46, 42, 42);
+    padding:20px 0;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-weight: 300;
+}
+
+#tamaño{
+    text-align: center;
+}
+#tamaño article:hover{
+top: 15px;
+
+}
+#tamaño section{
+    margin-right: 100px;
+}
+#tamaño article{
+    position: relative;
+    display: inline-block;
+    width: 25%;
+    margin: 0 40px;
+}
+#tamaño p{
+    text-align: left;
+    margin-left: 20px;
+}
+#tamaño img{
+    width:450px;
+    height: 300px;
+    padding: 20px;
+    margin-bottom: 50px;
+    
+}
+
+#tamaño h1,h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#razas{
+    text-align: center;
+}
+#razas article{
+    display: inline-block;
+    width: 25%;
+    margin: 0 40px;
+
+}
+
+#razas img{
+    width: 300px;
+    height: 300px;
+    height: auto;
+    border: 1px solid rgb(46, 42, 42);
+
+}
+#razas p{
+    text-align: left;
+    margin-left: 20px;
+}
+#razas img:last-child{
+    margin-bottom: 30px;
+}
+#razas img:hover{
+    box-shadow: 0 15px 30px rgba(0,0,0,0.5);
+    
+
+}
+
+/*Ficha individual de cada perrito*/
+#perros {
+    max-width: 1800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+#perros img{
+    margin-left: 20px;
+    float: right;
+    width: 400px;
+    margin-right: 20px;
+    border: 3px solid rgb(46, 42, 42);
+    border-radius: 10px;
+}
+#perros h2{
+    text-align: left;
+    margin: 25px 0 10px 0;
+}
 
 
+#perros article p {
+    font-size: 1rem;
+    text-align: justify;
+}
 /*Seccion de la página --> ropa, paseo, viaje*/
 #productos{
     text-align: center;
@@ -476,6 +571,8 @@ h5{
 }
 footer {
 
+    bottom: 0;
+    width: 100%;
   background: #2e2929;
   padding: 40px 0;
   color: white;
