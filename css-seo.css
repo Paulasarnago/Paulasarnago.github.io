@@ -213,6 +213,10 @@ h2 {
     text-align: center;
 }
 
+#razas p{
+    text-align: left;
+}
+
 #razas article {
     display: inline-block;
     width: 25%;
