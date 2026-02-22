@@ -53,25 +53,24 @@ a {
     text-decoration: none;
 }
 
-
 ol {
-    margin: 0;
-    padding: 0;
-    text-align: center;
+    display: flex;             
+    flex-direction: row;      
+    flex-wrap: wrap;           
+    justify-content: center;   
+    align-items: center;      
     background-color: rgb(46, 42, 42);
-    border: 10px solid rgb(46, 42, 42);
-    font-size: 0; 
+    margin: 0;
+    padding: 10px;
+    list-style: none;
 }
 
 li {
-    box-sizing: border-box;
-    display: inline-block;
-    width: 12%;
-    font-size: 16px;
-    text-align: center;
-    color: #fff;
-    background-color: rgb(46, 42, 42);
+    width: 12.5%;
+    padding: 10px 20px;
     border-right: 1px solid #edebee;
+    font-size: 16px;
+    color: #fff;
 }
 
 li:last-child {
@@ -95,20 +94,22 @@ h2{
     text-transform: uppercase;
 }
 .principal {
-    text-align: center;
+    display: flex;
+    flex-direction: row;       
+    flex-wrap: wrap;          
+    justify-content: space-evenly; 
+    align-items: flex-start;   
+    
     margin: 20px;
 }
 
-
 .principal article {
-    display: inline-block;
-    vertical-align: top;
-    width: 23%;
-    margin: 10px;
+
+    width: 280px;              
+    margin: 15px;
     border: 1px solid #ddd;
     border-radius: 10px;
-    background-color: #fff;
-    font-size: 16px;
+    text-align: center;
 }
 
 .principal article:hover {
@@ -138,16 +139,19 @@ h2{
 
 
 #iconos-info {
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;          
+    justify-content: space-evenly;
+    align-items: center;
+    
     margin: 50px 0;
+    padding: 20px;
 }
 
 #iconos-info article {
-    display: inline-block;
-    vertical-align: top;
-    width: 18%;
+    width: 200px;              
     margin: 10px;
-    text-align: center;
 }
 
 #iconos-info i {
@@ -179,7 +183,7 @@ h2{
     font-style: italic;
     font-weight: 300;
 }
-
+/*migas*/
 #tamaño{
     text-align: center;
 }
