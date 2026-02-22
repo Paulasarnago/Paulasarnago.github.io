@@ -93,6 +93,11 @@ h2{
     text-align: center;
     text-transform: uppercase;
 }
+.principal h2 {
+    width: 100%;       /* Ocupa toda la fila */
+    text-align: center;
+    margin-bottom: 20px;
+}
 .principal {
     display: flex;
     flex-direction: row;
