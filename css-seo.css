@@ -2,7 +2,7 @@ html, body {
     margin: 0;
     height: 100%;
     font-family: Lato;
-    background-color: #ecefdd28;
+    background-color: rgba(245, 245, 229, 0.162);
 }
 
 * {
@@ -86,9 +86,9 @@ header nav li:hover {
 
 /*Formato de mi pagina principal*/
 #banner {
-    display: block;
     width: 100%;
-    margin: 20px 0;
+    display: block;
+    height: auto;
 }
 h2{
     text-align: center;
@@ -585,26 +585,22 @@ h5{
 
 }
 footer {
-
-    bottom: 0;
-    width: 100%;
-  background: #2e2929;
-  padding: 40px 0;
-  color: white;
-  margin: 0 auto;
-  overflow: hidden;
-  padding-left: 10%;
+    display: flex;         
+    flex-direction: row;   
+    flex-wrap: wrap;      
+    justify-content: space-around;
+    
+    background: #2e2929;
+    padding: 40px 20px;
+    color: white;
+    margin-top: 50px;
 }
 
-
 footer nav {
-    float: left;
-    margin: 0;
-  padding: 0 10px;
-  width: 30%;
-  box-sizing: border-box;
-
-
+    flex: 1;              
+    min-width: 250px;      
+    margin: 20px;
+    box-sizing: border-box;
 }
 
 
@@ -620,12 +616,11 @@ footer h5 {
 
 
 footer ol {
-
-  padding: 0;
-  margin: 0;
-
+    list-style: none;      
+    padding: 0;
+    margin: 0;
+    display: block;        
 }
-
 footer a {
   color: white;
   text-decoration: none;
@@ -635,14 +630,12 @@ footer a {
 }
 
 footer li {
- 
-  display: block; 
-  margin: 6px 0;
-  border: none;
-  background-color: transparent;
-  width: auto;
+    text-align: center;
+    display: block;        
+    width: 100%;
+    border: none;
+    margin: 8px 0;
 }
-
 
 
 
