@@ -67,11 +67,13 @@ ol {
 }
 
 li {
-    width: 12.5%;
-    padding: 10px 20px;
+    min-width: 120px; 
+    flex-grow: 1; 
+    padding: 10px;
     border-right: 1px solid #edebee;
     font-size: 16px;
     color: #fff;
+    text-align: center;
 }
 
 li:last-child {
@@ -194,6 +196,7 @@ h2{
     font-style: italic;
     font-weight: 300;
 }
+
 /*migas*/
 #tamaño{
     text-align: center;
