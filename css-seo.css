@@ -127,7 +127,7 @@ h2 {
     border-radius: 5px;
 }
 
-/* ARTÍCULOS DE INTERÉS - CORREGIDO (FONDO OSCURO Y CENTRADO) */
+/* ARTÍCULOS DE INTERÉS */
 #informativo h3 {
     background-color: rgb(46, 42, 42);
     color: white;
@@ -230,28 +230,56 @@ h2 {
     object-fit: cover;
 }
 
-/* FORMULARIO Y VIP */
-#haztevip article {
-    display: inline-block;
-    width: 200px;
-    margin: 10px;
-    vertical-align: top;
-    background: white;
-    padding: 15px;
-    border-radius: 10px;
-    border: 1px solid #ddd;
+/* SECCIÓN HAZTE VIP - ARREGLADA */
+#haztevip {
+    margin: 20px auto;
+    text-align: center;
+    max-width: 1200px;
 }
 
+#haztevip p {
+    max-width: 900px;
+    margin: 0 auto 20px;
+}
+
+#haztevip section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+#haztevip article {
+    flex: 0 1 220px; /* Evita que se estiren de más */
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#haztevip article i {
+    font-size: 55px;
+    color: #bca59b;
+    margin-bottom: 10px;
+}
+
+/* FORMULARIO */
 form {
-    margin: 30px auto;
+    margin: 40px auto;
     max-width: 500px;
+    padding: 0 20px;
 }
 
 form input, form button {
     display: block;
     width: 100%;
     padding: 12px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     border-radius: 6px;
     border: 1px solid #ccc;
 }
@@ -261,9 +289,14 @@ form button {
     color: white;
     border: none;
     cursor: pointer;
+    font-weight: bold;
 }
 
-/* FOOTER - COMPACTO */
+form button:hover {
+    background-color: #3b372f;
+}
+
+/* FOOTER */
 footer {
     display: flex;
     flex-wrap: wrap;
@@ -276,7 +309,7 @@ footer {
 
 footer nav {
     flex: 1 1 200px;
-    margin: 10px;
+    margin: 20px;
 }
 
 footer h5 {
