@@ -91,7 +91,7 @@ header nav li:hover {
 h2 {
     text-align: center;
     text-transform: uppercase;
-    margin: 30px 0;
+    margin: 40px 0 30px;
 }
 
 .principal {
@@ -132,6 +132,55 @@ h2 {
     object-fit: cover;
     margin-bottom: 15px;
     border-radius: 5px;
+}
+
+/* SECCIÓN FAQS Y PAGOS (NUEVO) */
+#FAQS, .contenedor-pagos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 20px auto 50px;
+    padding: 0 20px;
+}
+
+#FAQS article {
+    flex: 1 1 45%;
+    min-width: 300px;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    border-left: 5px solid rgb(46, 42, 42);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.contenedor-pagos article {
+    flex: 1 1 450px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.contenedor-pagos h3 {
+    text-align: center;
+    color: rgb(46, 42, 42);
+    margin-bottom: 20px;
+}
+
+.contenedor-pagos p {
+    margin: 8px 0;
+    padding-left: 25px;
+    position: relative;
+}
+
+/* Estilo para las florecitas en los pagos */
+.contenedor-pagos p::before {
+    content: "🌸";
+    position: absolute;
+    left: 0;
 }
 
 /* ARTÍCULOS DE INTERÉS */
@@ -197,27 +246,6 @@ h2 {
     font-weight: bold;
 }
 
-/* ICONOS INFO */
-#iconos-info {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin: 50px 0;
-    padding: 20px;
-    text-align: center;
-}
-
-#iconos-info article {
-    width: 200px;
-    margin: 10px;
-}
-
-#iconos-info i {
-    font-size: 55px;
-    color: #bca59b;
-    margin-bottom: 10px;
-}
-
 /* SECCIÓN HAZTE VIP */
 #haztevip {
     margin: 60px auto;
@@ -248,13 +276,7 @@ h2 {
     box-shadow: 0 4px 15px rgba(0,0,0,0.05);
 }
 
-#haztevip article i {
-    font-size: 50px;
-    color: #bca59b;
-    margin-bottom: 20px;
-}
-
-/* FORMULARIO - BLINDADO Y CENTRADO */
+/* FORMULARIO */
 form {
     display: block;
     margin: 60px auto;
@@ -284,10 +306,6 @@ form button {
     cursor: pointer;
     font-weight: bold;
     text-transform: uppercase;
-}
-
-form button:hover {
-    background-color: #3b372f;
 }
 
 /* FOOTER COMPACTO */
