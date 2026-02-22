@@ -168,14 +168,14 @@ h2 {
     padding: 30px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
     overflow: hidden;
-    flex: 1 1 580px; /* AQUÍ ESTÁ EL CAMBIO: permite que se pongan uno al lado del otro */
+    flex: 1 1 580px; 
     max-width: 620px;
     margin-bottom: 20px;
 }
 
 #patitasmimadas img {
     float: left;
-    width: 250px; /* Un pelín más pequeña para que el texto quepa mejor en la fila */
+    width: 250px; 
     height: auto;
     margin: 0 25px 15px 0;
     border-radius: 8px;
@@ -184,7 +184,7 @@ h2 {
 
 #patitasmimadas a {
     display: block;
-    clear: both; /* Para que el botón siempre baje debajo de la imagen float */
+    clear: both; 
     width: fit-content;
     min-width: 300px;
     margin: 20px auto 0;
@@ -218,29 +218,63 @@ h2 {
     margin-bottom: 10px;
 }
 
-/* SECCIÓN HAZTE VIP */
+/* SECCIÓN HAZTE VIP - TOTALMENTE BLINDADA */
 #haztevip {
-    margin: 20px auto;
+    margin: 60px auto;
     text-align: center;
     max-width: 1200px;
+    width: 100%;
+    display: block; /* Forzamos que sea un bloque independiente */
+    clear: both;    /* Evita que arrastre efectos de las imágenes con float de arriba */
+}
+
+#haztevip h2 {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+}
+
+#haztevip > p {
+    max-width: 800px;
+    margin: 0 auto 40px; /* Centra el párrafo y le da aire abajo */
+    line-height: 1.6;
 }
 
 #haztevip section {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
+    justify-content: center; /* Asegura que las tarjetas estén centradas */
+    gap: 30px;
+    padding: 20px;
 }
 
 #haztevip article {
-    flex: 0 1 220px;
+    flex: 0 1 250px; /* Tamaño fijo pero flexible para las tarjetas VIP */
     background: white;
-    padding: 20px;
-    border-radius: 10px;
-    border: 1px solid #ddd;
+    padding: 30px 20px;
+    border-radius: 15px;
+    border: 1px solid #eee;
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+}
+
+#haztevip article:hover {
+    transform: translateY(-5px); /* Pequeño efecto de elevación */
+}
+
+#haztevip article i {
+    font-size: 50px;
+    color: #bca59b;
+    margin-bottom: 20px;
+}
+
+#haztevip article h4 {
+    margin: 10px 0;
+    text-transform: uppercase;
+    font-size: 16px;
 }
 
 /* FOOTER COMPACTO */
