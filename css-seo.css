@@ -1,6 +1,5 @@
 /* CONFIGURACIÓN GENERAL */
-html,
-body {
+html, body {
     margin: 0;
     height: 100%;
     font-family: Lato, sans-serif;
@@ -98,45 +97,56 @@ h2 {
 .principal {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    margin: 20px auto;
+    justify-content: center; 
+    align-items: flex-start;
+    margin: 40px auto;
     max-width: 1300px;
     width: 95%;
 }
 
+.principal h2 {
+    width: 100%; 
+    text-align: center;
+    margin-bottom: 30px;
+    display: block; 
+}
+
 .principal article {
     width: 290px;
+    min-height: 400px; 
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between; 
     margin: 15px;
     border: 1px solid #ddd;
     border-radius: 10px;
-    padding: 15px;
+    padding: 20px;
     background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
 
 .principal article img {
     width: 100%;
-    height: 280px;
+    height: 250px;
     object-fit: cover;
     margin-bottom: 15px;
     border-radius: 5px;
 }
 
-/* ARTÍCULOS DE INTERÉS (BANNER OSCURO) */
+/* ARTÍCULOS DE INTERÉS */
 #informativo h3 {
     background-color: rgb(46, 42, 42);
     color: white;
     text-align: center;
     padding: 25px 0;
-    margin: 40px 0 20px 0;
+    margin: 10px 0; 
     font-style: italic;
     font-weight: 300;
     width: 100%;
 }
 
-/* QUIÉNES SOMOS (PATITAS MIMADAS) - CORREGIDO */
+/* QUIÉNES SOMOS*/
 #patitasmimadas {
     max-width: 1300px;
     margin: 40px auto;
@@ -144,23 +154,28 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 20px;
 }
+
 #patitasmimadas h2, #patitasmimadas > p {
     width: 100%; 
     text-align: center; 
 }
+
 #patitasmimadas article {
     background: #ffffff;
     border-radius: 10px;
     padding: 30px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-    margin-bottom: 30px;
     overflow: hidden;
+    flex: 1 1 580px; /* AQUÍ ESTÁ EL CAMBIO: permite que se pongan uno al lado del otro */
+    max-width: 620px;
+    margin-bottom: 20px;
 }
 
 #patitasmimadas img {
     float: left;
-    width: 300px;
+    width: 250px; /* Un pelín más pequeña para que el texto quepa mejor en la fila */
     height: auto;
     margin: 0 25px 15px 0;
     border-radius: 8px;
@@ -169,8 +184,10 @@ h2 {
 
 #patitasmimadas a {
     display: block;
+    clear: both; /* Para que el botón siempre baje debajo de la imagen float */
+    width: fit-content;
     min-width: 300px;
-    margin: 15px auto;
+    margin: 20px auto 0;
     padding: 12px 20px;
     background-color: #f4f1ea;
     color: rgb(46, 42, 42);
@@ -180,13 +197,7 @@ h2 {
     font-weight: bold;
 }
 
-
-#patitasmimadas p {
-    margin-bottom: 30px;
-
-}
-
-/* ICONOS INFO (PÁGINA PRINCIPAL) */
+/* ICONOS INFO */
 #iconos-info {
     display: flex;
     flex-wrap: wrap;
@@ -205,27 +216,6 @@ h2 {
     font-size: 55px;
     color: #bca59b;
     margin-bottom: 10px;
-}
-
-/* PRODUCTOS (PÁGINAS INTERNAS) */
-#productos {
-    text-align: center;
-    margin: 20px;
-}
-
-#productos section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
-}
-
-#productos article {
-    width: 280px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 15px;
-    background-color: #fff;
 }
 
 /* SECCIÓN HAZTE VIP */
@@ -251,31 +241,6 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-/* FORMULARIO */
-form {
-    margin: 40px auto;
-    max-width: 500px;
-    padding: 0 20px;
-}
-
-form input,
-form button {
-    display: block;
-    width: 100%;
-    padding: 12px;
-    margin-bottom: 15px;
-    border-radius: 6px;
-    border: 1px solid #ccc;
-}
-
-form button {
-    background-color: rgb(46, 42, 42);
-    color: white;
-    border: none;
-    cursor: pointer;
-    font-weight: bold;
 }
 
 /* FOOTER COMPACTO */
