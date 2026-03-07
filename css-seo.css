@@ -504,3 +504,53 @@ footer li {
     font-size: 14px;
     text-align: center;
 }
+
+@media (max-width: 768px) {
+    
+   
+    ol {
+        flex-direction: column;
+    }
+    
+    li {
+        width: 100%;
+        max-width: none;
+        border-right: none;
+        border-bottom: 1px solid #edebee;
+    }
+
+
+    .principal article {
+        width: 90%; 
+        min-height: auto; 
+        margin: 15px auto;
+    }
+
+  
+    #perros img, 
+    #patitasmimadas img {
+        float: none;
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+
+   
+    #tamaño article, 
+    #razas article {
+        display: block;
+        width: 100%;
+        margin: 20px 0;
+    }
+
+
+    #banner {
+        height: auto;
+    }
+
+   
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+}
