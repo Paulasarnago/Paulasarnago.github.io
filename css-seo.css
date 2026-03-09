@@ -418,10 +418,15 @@ h2 {
     clear: both;
 }
 
-picture img {
-  max-width: 100%;
-  height: auto;
-  display: block;
+#haztevip picture{
+    display:block;
+    width:100%;
+}
+
+#haztevip picture img{
+  width:100%;
+  height:auto;
+  display:block;
 }
 
 #haztevip section {
