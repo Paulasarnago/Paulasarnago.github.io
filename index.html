@@ -226,15 +226,10 @@
     </nav>
   </header>
   <main>
-   <img id="banner" 
-     src="/imagenes/index/bannernuevo.webp" 
-     srcset="/imagenes/index/bannernuevomovil.webp 800w, 
-             /imagenes/index/bannernuevo.webp 1920w" 
-     sizes="(max-width: 600px) 800px, 1920px"
-     alt="Banner informativo Patitas Mimadas" 
-     width="721" height="112" 
-     fetchpriority="high" 
-     style="aspect-ratio: 721/112; width: 100%; height: auto;">
+    <picture>
+      <source srcset="/imagenes/index/bannermovilprincipal.webp" media="(max-width: 480px)">
+   <img src="/imagenes/index/bannernuevo.webp" alt="">
+   </picture>
     <section class="principal">
       <h2>Novedades</h2>
       <article>
