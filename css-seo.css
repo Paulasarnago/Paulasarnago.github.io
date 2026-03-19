@@ -563,80 +563,64 @@ footer li {
         border-right: none;
     }
 
-    
     .principal article {
         flex: 0 1 22%; 
         min-width: 200px; 
         margin: 10px;
     }
-}
+    
+    /* Estos estilos deben estar DENTRO de la llave de tablet */
+    #razas article {
+        width: 40%;
+        margin: 10px;
+    }
 
-/* 2. MÓVIL */
+    #tamaño article {
+        width: 45%;
+    }
+
+    #perros img {
+        width: 350px;
+    }
+} /* <--- AQUÍ CERRAMOS LA TABLET CORRECTAMENTE */
+
+/* 2. MÓVIL (Aquí es donde vuelve la columna única) */
 @media (max-width: 480px) {
-
     #barrasuperior p {
         display: block;
         margin: 5px 0;
         font-size: 12px;
     }
 
-
     ol {
-        flex-direction: column;
+        flex-direction: column !important; /* Forzamos la columna */
         padding: 0;
     }
 
-    li {
-        width: 100%;
+    header nav li {
+        width: 100% !important;
+        flex: 0 0 100% !important;
         max-width: none;
         border-right: none;
         border-bottom: 1px solid rgba(237, 235, 238, 0.2);
     }
 
-
     .principal article {
-        width: 95%;
+        width: 95% !important; /* 1 por fila */
+        flex: 0 0 95% !important;
         margin: 10px auto;
         min-height: auto;
     }
-#bannerprincipal img{
-     display: block;
-    width: 100%;       
-    max-width: 1200px; 
-    height: auto;      
-    margin: 0 auto;    
-}
 
-    #perros img,
-    #patitasmimadas img {
-        float: none;
-        width: 100%;
-        margin: 0 0 15px 0;
+    #tamaño section {
+        flex-direction: column; /* Fotos una debajo de otra */
     }
-
 
     #tamaño article,
     #razas article {
         display: block;
-        width: 100%;
+        width: 100% !important;
         margin: 20px 0;
-    }
-
-    #razas img {
-        width: 100%;
-        height: auto;
-    }
-
-
-    footer {
-        flex-direction: column;
-        text-align: center;
-        padding: 20px;
-    }
-
-    footer nav {
-        margin: 10px 0;
-        width: 100%;
     }
 
     h1 {
