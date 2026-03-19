@@ -117,7 +117,7 @@ h2 {
 }
 
 .principal article {
-    width: 290px;
+    width: 280px; 
     min-height: 400px;
     display: flex;
     flex-direction: column;
@@ -128,7 +128,7 @@ h2 {
     border-radius: 10px;
     padding: 20px;
     background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
 
 .principal article img {
