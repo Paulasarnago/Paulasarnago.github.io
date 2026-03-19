@@ -9,13 +9,7 @@ body {
 * {
     box-sizing: border-box;
 }
-#bannerprincipal img{
-     display: block;
-    width: 100%;       
-    max-width: 1200px; 
-    height: auto;      
-    margin: 0 auto;    
-}
+
 #barrasuperior {
     background-color: rgb(46, 42, 42);
     color: white;
@@ -586,7 +580,13 @@ footer li {
         margin: 10px auto;
         min-height: auto;
     }
-
+#bannerprincipal img{
+     display: block;
+    width: 100%;       
+    max-width: 1200px; 
+    height: auto;      
+    margin: 0 auto;    
+}
 
     #perros img,
     #patitasmimadas img {
