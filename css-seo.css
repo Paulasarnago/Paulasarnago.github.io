@@ -535,14 +535,30 @@ footer li {
 
 /* 1. TABLET */
 @media (max-width: 1024px) {
+
+    header ol{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding: 0;
+    }
     .principal {
         justify-content: space-around;
     }
 
-    header nav li{
-        border: none;
+    header nav li {
+        /* 25% significa 4 elementos por fila (100 / 4 = 25) */
+        flex: 0 0 25%; 
+        border-right: 1px solid rgba(255, 255, 255, 0.1);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        max-width: none;
+        padding: 15px 5px;
+        font-size: 14px;
     }
-
+    header nav li:nth-child(4n) {
+        border-right: none;
+    }
+}
     .principal article {
         flex: 0 1 40%;
         min-width: 300px;
@@ -560,7 +576,7 @@ footer li {
     #perros img {
         width: 350px;
     }
-}
+
 
 /* 2. MÓVIL */
 @media (max-width: 480px) {
