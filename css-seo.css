@@ -9,7 +9,10 @@ body {
 * {
     box-sizing: border-box;
 }
-
+main picture{
+     display: block;
+    width: 100%;
+}
 #barrasuperior {
     background-color: rgb(46, 42, 42);
     color: white;
