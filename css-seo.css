@@ -10,6 +10,12 @@ body {
     box-sizing: border-box;
 }
 
+#bannerprincipal img {
+    display: block;
+    width: 100%;  
+    height: auto; 
+}
+
 #barrasuperior {
     background-color: rgb(46, 42, 42);
     color: white;
