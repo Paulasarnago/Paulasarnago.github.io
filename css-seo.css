@@ -584,68 +584,74 @@ footer li {
     }
 } 
 
-/* MÓVIL */
+/* ============================================================
+   2. MÓVIL (max-width: 480px) 
+   ============================================================ */
 @media (max-width: 480px) {
-    #barrasuperior p {
-        display: block;
-        margin: 5px 0;
-        font-size: 12px;
-    }
 
-    ol {
-        flex-direction: column !important; 
+
+    header nav ol {
+        display: flex;
+        flex-direction: column;
         padding: 0;
     }
 
     header nav li {
-        width: 100% !important;
-        flex: 0 0 100% !important;
+        width: 100%;
         max-width: none;
         border-right: none;
         border-bottom: 1px solid rgba(237, 235, 238, 0.2);
     }
 
+
+    section.principal {
+        display: block; 
+    }
+
     .principal article {
-        width: 95% !important; 
-        flex: 0 0 95% !important;
-        margin: 10px auto;
+        width: 92%;
+        margin: 15px auto; 
         min-height: auto;
     }
 
-    #tamaño section {
-        flex-direction: column; 
+ 
+    section#perros {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
-    #tamaño article,
-    #razas article {
-        display: block;
-        width: 100% !important;
-        margin: 20px 0;
+    section#perros img {
+        float: none;      
+        width: 100%;
+        max-width: 320px;
+        margin: 0 auto 20px auto;
     }
+
+    section#perros aside {
+        width: 100%;
+        float: none;
+        padding: 0 10px;
+    }
+
+
+    #tamaño section {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #tamaño article {
+        width: 100%;
+    }
+
 
     h1 {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
+        text-align: center;
     }
-    
-#perros {
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
-    padding: 10px;
-}
 
-#perros img {
-    width: 100% !important; 
-    max-width: 400px;       
-    height: auto;
-    float: none !important; 
-    margin: 0 0 20px 0 !important; 
-    border-radius: 15px;
-}
-
-#perros aside {
-    width: 100% !important;
-    padding: 0 10px;
-    text-align: left; 
-}
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
 }
