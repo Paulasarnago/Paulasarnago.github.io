@@ -583,7 +583,11 @@ footer li {
         width: 350px;
     }
 } 
-
+@media (max-width: 600px) {
+    body {
+        background-color: red !important;
+    }
+}
 /* movil */
 @media (max-width: 480px) {
 
