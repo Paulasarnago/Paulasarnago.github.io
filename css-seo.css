@@ -539,6 +539,10 @@ footer li {
         justify-content: space-around;
     }
 
+    header nav li{
+        border: none;
+    }
+
     .principal article {
         flex: 0 1 40%;
         min-width: 300px;
