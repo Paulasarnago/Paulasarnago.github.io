@@ -583,11 +583,6 @@ footer li {
         width: 350px;
     }
 } 
-@media (max-width: 600px) {
-    body {
-        background-color: red !important;
-    }
-}
 /* movil */
 @media (max-width: 480px) {
 
@@ -616,13 +611,13 @@ footer li {
         min-height: auto;
     }
 
- section#perros {
+ main section#perros {
         display: block;
         width: 100%;
         clear: both;    
     }
 
-    section#perros img {
+    main section#perros img {
         display: block;
         float: none;      
         width: 90%;        
@@ -630,7 +625,7 @@ footer li {
         margin: 0 auto 20px auto; 
     }
 
-    section#perros aside {
+    main section#perros aside {
         display: block;
         float: none;       
         width: 100%;
