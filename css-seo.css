@@ -611,26 +611,31 @@ footer li {
         min-height: auto;
     }
 
- main section#perros {
+main#perros section, 
+    main#perros article {
         display: block;
+        float: none;
         width: 100%;
-        clear: both;    
+        clear: both;
     }
 
-    main section#perros img {
+  
+    main#perros section article img {
         display: block;
         float: none;      
-        width: 90%;        
+        width: 90%;
         max-width: 350px;
-        margin: 0 auto 20px auto; 
+        margin: 0 auto 20px auto;
     }
 
-    main section#perros aside {
+
+    main#perros section article p,
+    main#perros section article h2 {
         display: block;
-        float: none;       
+        float: none;
         width: 100%;
-        padding: 0 20px;
-        clear: both;       
+        clear: both;
+        padding: 0 10px;
     }
 
 
