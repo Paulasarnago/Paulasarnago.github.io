@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repaso Flex</title>
+</head>
+<style>
+
+    /*Las 7 propiedaddes van en el contenedor no elemento: display, flexdirection,justificontent, alignintems, flexwrap, align content*/
+    /*SI SE USA FLEX-DIRECTION COLUMN HAY QUE PONER HEIGHT PARA QUE EL JUSTIFY CONTENT FUNCIONE (px , porcentaje no funciona, vh para la altura maxima de la pantalla)*/
+    main {
+        display: flex;
+        /*Se aplica al contenedor cuyos elementos queremos distribuir NO al elemento*/
+        flex-direction: row;
+        justify-content:center;
+        height: 100vh;
+        align-items: start;
+        flex-wrap: wrap; /*Una vez tieness wrap puedes controlar el eje secundario*/
+        align-content: center;
+        gap: 10px;
+        /* FLEX-START (Por defecto) Los alinea al principio del eje principal */
+
+        /* FLEX-END Los alinea al final del eje principal */
+
+        /* CENTER Los centra */
+
+        /* SPACE-BETWEEN  Deja espacio entre ellos, lleva el primero y el ultimo al final y al principio, lo demas se reparte, no deja espacio exterior */
+
+        /* SPACE-EVENLY   Deja exactamente la misma cantidad de espacio en todas partes*/
+
+        /* SPACE-AROUND Deja espacio al rededor, el primero y ultimo no estaran pegados al principio y al final */
+    }
+
+    /*Propiedades para los elementos*/
+    div {
+        flex-basis: 400px; /*Tamaño del elemento en el eje principal Si es column, afectara a altura, si es row, afectara a la anchura*/
+       height: 30px;
+        border: 1px solid black;
+    }
+    div:nth-of-type(2){
+        height: 50px;
+        flex-grow: 1; /*Si hay espacio de sobra, este elemento sera el que se aproveche del espacio y ocupe más*/
+        order: 2;
+    }
+    div:nth-of-type(1){
+        flex-shrink: 2; /*Al contrario que grow el afectado ocupara menos si se permite*/
+        align-self: flex-start; /*Alinear un elemento individualmente*/
+        order: 3; /**/
+    }
+</style>
+
+<body>
+    <main>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </main>
+</body>
+
+</html>

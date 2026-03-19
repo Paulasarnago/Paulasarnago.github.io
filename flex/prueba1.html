@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editorial de Libros - Práctica</title>
+</head>
+<!--Para estructura en silo, lo organizariamos por niveles por relevancia de palabras claves empezando desde una pagina principal y accediendo a los niveles de profundidad-->
+<style>
+    body {
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        background: #333;
+        color: white;
+        padding: 1rem;
+    }
+
+    nav ul {
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        height: 100px; /* Damos altura para que haya espacio para moverse */
+        align-items: flex-start; /* Todos arriba por defecto */
+        background: #444;
+    }
+
+    nav ul li {
+        padding: 10px 20px;
+        
+    }
+
+    li:nth-of-type(2){
+        align-self: flex-end; /* Este bajará al fondo del contenedor */
+    background: gold; /* Para que veas cuál es *
+    }
+
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+
+    .hero-img {
+        max-width: 1000px;
+        height: auto;
+        border: 5px solid gold;
+    }
+
+    .content {
+        display: flex;
+
+    }
+
+    .card {
+        background: #eee;
+        margin: 10px;
+        padding: 15px;
+        width: 300px;
+        /* TAREA 5: Esto dará problemas en móviles */
+    }
+
+    @media screen and (max-width: 768px) {
+        .content {
+            flex-direction: column;
+
+        }
+
+        .card {
+            width: 100%;
+        }
+    }
+</style>
+
+<body>
+
+    <header>
+        <h1>Editorial "El Lector"</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Ficción</a></li>
+                <li><a href="#">Ensayo</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section class="breadcrumbs">
+            <p>Inicio > Libros > Ficción</p>
+        </section>
+
+        <h2>Nuestra Novedad</h2>
+
+        <picture>
+
+            <source srcset="imagen/400x400px" media="(max-width:600px)">
+
+
+
+            <img src="https://via.placeholder.com/1000x400" alt="Banner" class="hero-img">
+
+
+        </picture>
+
+        <div class="content">
+            <div class="card">
+                <h3>Libro 1</h3>
+                <p>Descripción corta del libro.</p>
+            </div>
+            <div class="card">
+                <h3>Libro 2</h3>
+                <p>Descripción corta del libro.</p>
+            </div>
+            <div class="card">
+                <h3>Libro 3</h3>
+                <p>Descripción corta del libro.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",          
+      "position": 1,
+      "name": "Inicio",
+      "item": "https://urlinventada"
+    }
+  ]
+}
+  </script>
+</html>
