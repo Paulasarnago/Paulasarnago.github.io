@@ -612,28 +612,26 @@ footer li {
         min-height: auto;
     }
 
- 
-    section#perros {
-        display: flex;
-        flex-direction: column; 
-        align-items: center;
-        text-align: center;
+ section#perros {
+        display: block;
         width: 100%;
+        clear: both;    
     }
 
-   section#perros img {
-        float: none;           
+    section#perros img {
         display: block;
-        width: 100%;          
-        max-width: 320px;      
+        float: none;      
+        width: 90%;        
+        max-width: 350px;
         margin: 0 auto 20px auto; 
     }
 
     section#perros aside {
+        display: block;
+        float: none;       
         width: 100%;
-        float: none;           
-        padding: 0 15px;
-        text-align: left;      
+        padding: 0 20px;
+        clear: both;       
     }
 
 
