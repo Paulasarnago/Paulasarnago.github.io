@@ -680,6 +680,25 @@ footer li {
         margin: 0 auto;
     }
 
+    #patitasmimadas article {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;  
+    text-align: center;   
+    padding: 20px;
+}
+
+#patitasmimadas img {
+    float: none;          
+    width: 100%;          
+    max-width: 300px;       
+    margin: 0 auto 20px auto; 
+}
+
+#patitasmimadas p {
+    text-align: left;       
+}
+
     footer {
         flex-direction: column;
         text-align: center;
