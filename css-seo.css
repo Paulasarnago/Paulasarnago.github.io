@@ -608,11 +608,15 @@ footer li {
     }
 
     .principal article {
-        flex: 0 1 22%;
-        min-width: 200px;
-        margin: 10px;
+        flex: 0 1 45%;
+        min-width: 280px; 
+        margin: 15px auto; 
     }
 
+    .principal {
+        justify-content: space-around;
+        width: 100%;
+    }
 
     #razas article {
         width: 40%;
