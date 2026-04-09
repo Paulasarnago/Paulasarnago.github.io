@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio-Puzle</title>
+</head>
+<style>
+    body {
+        margin: 0 auto;
+        display: flex;
+        width: 620px;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    span{
+        flex-basis: 200px;
+        transition: 2s;
+        opacity: 0.5;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+    }
+    span:nth-of-type(1) {
+        order: 7;
+    }
+
+    span:nth-of-type(2) {
+        order: 1;
+    }
+
+    span:nth-of-type(3) {
+        order: 8;
+    }
+
+    span:nth-of-type(4) {
+        order: 4;
+    }
+
+    span:nth-of-type(5) {
+        order: 2;
+    }
+
+    span:nth-of-type(6) {
+        order: 9;
+    }
+
+    span:nth-of-type(7) {
+        order: 5;
+    }
+
+    span:nth-of-type(8) {
+        order: 3;
+    }
+
+    span:nth-of-type(9) {
+        order: 6;
+    }
+</style>
+
+<body>
+   <span onclick="this.style.order='0';this.style.opacity='1'"> <img src="puzzle1.png"></span>
+   <span onclick="this.style.order='0';this.style.opacity='1'"> <img src="puzzle2.png"></span>
+   <span onclick="this.style.order='0';this.style.opacity='1'"> <img src="puzzle3.png"></span>
+   <span onclick="this.style.order='0';this.style.opacity='1'"> <img src="puzzle4.png"></span>
+   <span onclick="this.style.order='0';this.style.opacity='1'"> <img src="puzzle5.png"></span>
+   <span onclick="this.style.order='0';this.style.opacity='1'"> <img src="puzzle6.png"></span>
+   <span onclick="this.style.order='0';this.style.opacity='1'"> <img src="puzzle7.png"></span>
+   <span onclick="this.style.order='0';this.style.opacity='1'"> <img src="puzzle8.png"></span>
+   <span onclick="this.style.order='0';this.style.opacity='1'">  <img src="puzzle9.png"></span>
+</body>
+</html>
