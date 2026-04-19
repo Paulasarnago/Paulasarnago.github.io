@@ -1,0 +1,826 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+    font-family: Lato, sans-serif;
+    background-color: rgba(245, 245, 229, 0.162);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#bannerprincipal img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#barrasuperior {
+    background-color: rgb(46, 42, 42);
+    color: white;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 12px 0;
+    display: flex;
+}
+
+#barrasuperior p {
+    display: inline-block;
+    margin: 0;
+    padding-left: 0;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    animation: marquesina-infinita 30s linear infinite;
+}
+
+@keyframes marquesina-infinita {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+
+        transform: translateX(-50%);
+    }
+}
+
+#barrasuperior:hover p {
+    animation-play-state: paused;
+}
+
+header {
+    font-family: Raleway, sans-serif;
+    background-color: #edebee;
+    text-align: center;
+    padding-bottom: 2px; 
+}
+
+h1 {
+    letter-spacing: 8px;
+    margin-top: 5px;
+    color: rgb(22, 8, 4);
+    text-transform: uppercase;
+    font-family: Lato;
+    font-weight: 500;
+    padding: 5px;
+    line-height: 1.1; 
+}
+h1 i {
+    font-style: normal;
+    text-transform: uppercase;
+    display: block; 
+    font-style: italic;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500; 
+    font-size: 21px;
+    color: #703912; 
+    margin-top: 5px; 
+    letter-spacing: 5px;
+}
+
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+header ol {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #2e2a2a;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-top: 2px solid #8b45136d;
+}
+
+header nav li {
+    padding: 18px 0;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    cursor: pointer;
+    flex: 1 0 0;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+header nav li:hover a {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 8px;
+}
+
+
+header nav li a {
+    display: block;
+    width: 100%;
+}
+
+header nav li:hover {
+    background-color: #3e3a3a;
+    color: #d4a373;
+    transform: none;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+/* PÁG PRINCIPAL*/
+#banner {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+.principal h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 60px auto 40px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #2e2a2a;
+    letter-spacing: 3px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #8b4513;
+    width: fit-content;
+    min-width: 200px;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0 30px;
+    font-family: 'Raleway', sans-serif;
+    border-bottom: none;
+    width: 100%;
+}
+
+.principal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 40px auto;
+    max-width: 1300px;
+    width: 95%;
+}
+
+.principal h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    display: block;
+}
+
+.principal article {
+    width: 280px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 15px;
+    border: none;
+    border-radius: 10px;
+
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    transition: 0.3s;
+}
+
+
+.principal article:hover {
+    border: 1px solid #8b4513;
+    background-color: #f9f6f2;
+}
+
+.principal article img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* productos demas paginas */
+#productos {
+    text-align: center;
+    margin: 20px;
+}
+
+#productos h1 {
+    color: #3b2d1f;
+    margin-bottom: 20px;
+}
+
+#productos section {
+    text-align: center;
+    font-size: 0;
+}
+
+#productos article {
+    display: inline-block;
+    vertical-align: top;
+    width: 280px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #fff;
+}
+
+#productos article:hover {
+    border: 1px solid #8b4513;
+    background-color: #f9f6f2;
+}
+
+#productos article img {
+    width: 100%;
+    height: 260px;
+}
+
+/* TAMAÑO Y RAZAS  */
+#tamaño {
+    text-align: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+#tamaño article {
+    flex: 1;
+    background: none;
+    border: none;
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+}
+
+#tamaño section {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    max-width: 1200px;
+}
+
+#tamaño img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#tamaño p {
+    text-align: left;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+#tamaño article img {
+    transition: all 0.3s ease;
+}
+
+#tamaño article:hover img {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+}
+
+#razas {
+    text-align: center;
+}
+
+#razas p {
+    text-align: left;
+}
+
+#razas article {
+    display: inline-block;
+    width: 25%;
+    margin: 0 40px;
+}
+
+#razas img {
+    width: 300px;
+    border: 1px solid rgb(46, 42, 42);
+    transition: 0.3s;
+}
+
+#razas img:hover {
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+}
+
+#perros h2 {
+    text-align: left;
+}
+
+#perros {
+    max-width: 1800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+#perros img {
+    float: right;
+    width: 400px;
+    border: 3px solid rgb(46, 42, 42);
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+/* ARTÍCULOS DE INTERÉS */
+
+#informativo {
+    padding: 60px 0;
+    margin-top: 20px;
+    background-color: transparent;
+}
+
+#informativo h3 {
+    background-color: #69401163; 
+    color: #3e2723; 
+    text-align: center;
+    padding: 25px 0;
+    margin: 14px 0;
+    font-weight: 600; 
+    width: 100%;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+#informativo h3 a {
+    display: block;
+    width: 100%;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+}
+
+#informativo h3:hover {
+    background-color: #8b451393; 
+    color: #ffffff; 
+}
+
+/* ICONOS INFO */
+
+#iconos-info {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+    margin: 40px 0;   
+}
+
+#iconos-info article {
+    text-align: center;
+    flex: 1;
+    min-width: 200px; 
+    margin: 20px;     
+}
+
+.icono-emoji {
+    display: block;
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+#iconos-info h4 {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+#iconos-info p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* preguntasfreq */
+#pagina-faqs {
+    text-align: center;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+#pagina-faqs h2 {
+    width: 100%;
+    margin: 50px 0 30px;
+    text-transform: uppercase;
+}
+
+#pagina-faqs article {
+    margin-bottom: 30px;
+}
+
+#pagina-faqs h3 {
+    color: rgb(46, 42, 42);
+    margin-bottom: 10px;
+}
+
+#pagina-faqs p {
+    line-height: 1.6;
+    color: #333;
+    margin: 5px 0;
+}
+
+.caja-pago {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    min-width: 300px;
+    margin: 10px;
+    padding: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    border: 1px solid #eef0f2;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    background-color: #fff;
+}
+
+.caja-pago:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
+    border-color: #63481d;
+}
+
+/* QUIÉNES SOMOS */
+#patitasmimadas {
+    max-width: 1300px;
+    margin: 40px auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+#patitasmimadas h2,
+#patitasmimadas>p {
+    width: 100%;
+    text-align: center;
+}
+
+#patitasmimadas article {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    flex: 1 1 580px;
+    max-width: 620px;
+    margin-bottom: 20px;
+}
+
+#patitasmimadas img {
+    float: left;
+    width: 250px;
+    height: auto;
+    margin: 0 25px 15px 0;
+    border-radius: 8px;
+    border: 2px solid rgb(46, 42, 42);
+}
+
+#patitasmimadas a {
+    display: block;
+    clear: both;
+    width: fit-content;
+    min-width: 300px;
+    margin: 20px auto 0;
+    padding: 12px 20px;
+    background-color: #f4f1ea;
+    color: rgb(46, 42, 42);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* SECCIÓN HAZTE VIP */
+#haztevip {
+    margin: 60px auto;
+    text-align: center;
+    max-width: 1200px;
+    width: 100%;
+    display: block;
+    clear: both;
+}
+
+#haztevip picture {
+    display: block;
+    width: 100%;
+}
+
+#haztevip picture img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#haztevip section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+#haztevip article {
+    flex: 0 1 250px;
+    background: white;
+    padding: 30px 20px;
+    border-radius: 15px;
+    border: 1px solid #eee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+/* FORMULARIO */
+form {
+    display: block;
+    margin: 60px auto;
+    max-width: 500px;
+    width: 90%;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    clear: both;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-family: inherit;
+}
+
+form button {
+    background-color: rgb(46, 42, 42);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* FOOTER  */
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: #2e2929;
+    padding: 40px 20px;
+    color: white;
+    margin-top: 50px;
+    clear: both;
+}
+
+footer nav {
+    flex: 1 1 200px;
+    margin: 20px;
+}
+
+footer h5 {
+    border-bottom: 1px solid white;
+    padding-bottom: 8px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+footer ol {
+    display: block;
+    background: none;
+    padding: 0;
+}
+
+footer li {
+    display: block;
+    width: 100%;
+    max-width: none;
+    padding: 4px 0;
+    border: none;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* TABLET  */
+@media (max-width: 1024px) {
+    header ol {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding: 0;
+    }
+
+    header nav li {
+        flex: 0 0 25%;
+        border-right: 1px solid rgba(255, 255, 255, 0.1);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        max-width: none;
+        padding: 15px 5px;
+        font-size: 14px;
+    }
+
+    header nav li:nth-child(4n) {
+        border-right: none;
+    }
+
+    .principal article {
+        flex: 0 1 45%;
+        min-width: 280px;
+        margin: 15px auto;
+    }
+
+    .principal {
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    #razas article {
+        width: 40%;
+        margin: 10px;
+    }
+
+    #tamaño article {
+        width: 45%;
+    }
+
+    #perros img {
+        width: 350px;
+    }
+}
+
+/* movil */
+@media (max-width: 480px) {
+
+
+    header nav ol {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    header nav li {
+        width: 100%;
+        max-width: none;
+        border-right: none;
+        border-bottom: 1px solid rgba(237, 235, 238, 0.2);
+    }
+
+
+    section.principal {
+        display: block;
+    }
+
+    .principal article {
+        width: 92%;
+        margin: 15px auto;
+        min-height: auto;
+    }
+
+    main#perros section,
+    main#perros article {
+        display: block;
+        float: none;
+        width: 100%;
+        clear: both;
+    }
+
+
+    main#perros section article img {
+        display: block;
+        float: none;
+        width: 90%;
+        max-width: 350px;
+        margin: 0 auto 20px auto;
+    }
+
+
+    main#perros section article p,
+    main#perros section article h2 {
+        display: block;
+        float: none;
+        width: 100%;
+        clear: both;
+        padding: 0 10px;
+    }
+
+
+    #tamaño section {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #tamaño article {
+        width: 100%;
+    }
+
+
+    h1 {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    #razas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    #razas article {
+        width: 90%;
+        margin: 15px auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #razas img {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    #patitasmimadas article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    #patitasmimadas img {
+        float: none;
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto 20px auto;
+    }
+
+    #patitasmimadas p {
+        text-align: left;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (max-height: 500px) and (orientation: landscape) {
+
+
+    #bannerprincipal img {
+        max-height: 250px;
+        object-fit: cover;
+    }
+
+
+    header nav ol {
+        flex-direction: row !important;
+        flex-wrap: wrap;
+    }
+
+    header nav li {
+        flex: 1 1 20%;
+        padding: 10px 5px;
+        font-size: 13px;
+        border-bottom: none;
+    }
+
+
+    .principal h2 {
+        margin: 30px auto 20px;
+    }
+
+
+    .principal article {
+        width: 45%;
+        margin: 10px 2%;
+        min-height: 320px;
+    }
+
+    .principal article img {
+        height: 180px;
+    }
+}
