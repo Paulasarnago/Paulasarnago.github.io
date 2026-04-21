@@ -514,7 +514,7 @@ h2 {
 }
 
 /* SECCIÓN HAZTE VIP */
-#haztevip {
+.haztevip {
     margin: 60px auto;
     text-align: center;
     max-width: 1200px;
@@ -523,18 +523,18 @@ h2 {
     clear: both;
 }
 
-#haztevip picture {
+.haztevip picture {
     display: block;
     width: 100%;
 }
 
-#haztevip picture img {
+.haztevip picture img {
     width: 100%;
     height: auto;
     display: block;
 }
 
-#haztevip section {
+.haztevip section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -542,7 +542,7 @@ h2 {
     padding: 20px;
 }
 
-#haztevip article {
+.haztevip article {
     flex: 0 1 250px;
     background: white;
     padding: 30px 20px;
