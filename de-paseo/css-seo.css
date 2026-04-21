@@ -6,9 +6,14 @@ body {
     background-color: rgba(245, 245, 229, 0.162);
 }
 
-* {
-    box-sizing: border-box;
-}
+body>a {
+            left: -1000px;
+            position: absolute;
+        }
+
+        body>a:focus {
+            position: static;
+        }
 
 #bannerprincipal img {
     display: block;
@@ -249,7 +254,7 @@ h2 {
 }
 
 /* TAMAÑO Y RAZAS  */
-#tamaño {
+.tamaño {
     text-align: center;
     padding: 20px;
     max-width: 1200px;
@@ -257,7 +262,7 @@ h2 {
 }
 
 
-#tamaño article {
+.tamaño article {
     flex: 1;
     background: none;
     border: none;
@@ -266,14 +271,14 @@ h2 {
     flex-direction: column;
 }
 
-#tamaño section {
+.tamaño section {
     display: flex;
     justify-content: space-evenly;
     gap: 30px;
     max-width: 1200px;
 }
 
-#tamaño img {
+.tamaño img {
     width: 100%;
     height: auto;
     aspect-ratio: 1 / 1;
@@ -281,57 +286,57 @@ h2 {
     border-radius: 10px;
 }
 
-#tamaño p {
+.tamaño p {
     text-align: left;
     margin-top: 10px;
     font-size: 16px;
     color: #333;
 }
 
-#tamaño article img {
+.tamaño article img {
     transition: all 0.3s ease;
 }
 
-#tamaño article:hover img {
+.tamaño article:hover img {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
     transform: translateY(-5px);
 }
 
-#razas {
+.razas {
     text-align: center;
 }
 
-#razas p {
+.razas p {
     text-align: left;
 }
 
-#razas article {
+.razas article {
     display: inline-block;
     width: 25%;
     margin: 0 40px;
 }
 
-#razas img {
+.razas img {
     width: 300px;
     border: 1px solid rgb(46, 42, 42);
     transition: 0.3s;
 }
 
-#razas img:hover {
+.razas img:hover {
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
 }
 
-#perros h2 {
+.perros h2 {
     text-align: left;
 }
 
-#perros {
+.perros {
     max-width: 1800px;
     margin: 20px auto;
     padding: 0 20px;
 }
 
-#perros img {
+.perros img {
     float: right;
     width: 400px;
     border: 3px solid rgb(46, 42, 42);
@@ -655,16 +660,16 @@ footer li {
         width: 100%;
     }
 
-    #razas article {
+    .razas article {
         width: 40%;
         margin: 10px;
     }
 
-    #tamaño article {
+    .tamaño article {
         width: 45%;
     }
 
-    #perros img {
+    .perros img {
         width: 350px;
     }
 }
@@ -697,8 +702,8 @@ footer li {
         min-height: auto;
     }
 
-    main#perros section,
-    main#perros article {
+    main.perros section,
+    main.perros article {
         display: block;
         float: none;
         width: 100%;
@@ -706,7 +711,7 @@ footer li {
     }
 
 
-    main#perros section article img {
+    main.perros section article img {
         display: block;
         float: none;
         width: 90%;
@@ -715,8 +720,8 @@ footer li {
     }
 
 
-    main#perros section article p,
-    main#perros section article h2 {
+    main.perros section article p,
+    main.perros section article h2 {
         display: block;
         float: none;
         width: 100%;
@@ -725,12 +730,12 @@ footer li {
     }
 
 
-    #tamaño section {
+    .tamaño section {
         flex-direction: column;
         gap: 20px;
     }
 
-    #tamaño article {
+    .tamaño article {
         width: 100%;
     }
 
@@ -740,14 +745,14 @@ footer li {
         text-align: center;
     }
 
-    #razas {
+    .razas {
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 100%;
     }
 
-    #razas article {
+    .razas article {
         width: 90%;
         margin: 15px auto;
         display: flex;
@@ -755,7 +760,7 @@ footer li {
         align-items: center;
     }
 
-    #razas img {
+    .razas img {
         width: 100%;
         height: auto;
         display: block;
