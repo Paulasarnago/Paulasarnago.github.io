@@ -8,6 +8,11 @@ body {
 * {
     box-sizing: border-box;
 }
+#detalles-anatomia{
+font-size: 0;
+
+}
+
 body>a {
             left: -1000px;
             position: absolute;
@@ -40,6 +45,10 @@ body>a {
     font-weight: 500;
     letter-spacing: 1.5px;
     animation: marquesina-infinita 30s linear infinite;
+}
+
+#nuestros-servicios{
+    font-size: 0;
 }
 
 @keyframes marquesina-infinita {
