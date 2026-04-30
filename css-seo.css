@@ -9,7 +9,8 @@ body {
     box-sizing: border-box;
 }
 #detalles-anatomia{
-font-size: 0;
+position: absolute;
+right: 2000px;
 
 }
 
