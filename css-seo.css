@@ -489,7 +489,8 @@ h2 {
 .patitasmimadas h2,
 .patitasmimadas>p {
     width: 100%;
-    text-align: center;
+    text-align: left;
+    line-height: 1.5;
 }
 
 .patitasmimadas article {
